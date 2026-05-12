@@ -22,7 +22,7 @@ Luego implementé una **versión mejorada** (v2) usando `secrets` y una polític
   - [3) Reglas de complejidad](#3-reglas-de-complejidad)
 - [Comparación v1 vs v2](#comparación-v1-vs-v2)
 - [Ejemplos de ejecución](#ejemplos-de-ejecución)
-- [Recomendaciones extra](#recomendaciones-extra)
+- [Próximos pasos y mejoras](#próximos-pasos-y-mejoras)
 - [Licencia](#licencia)
 
 ---
@@ -116,7 +116,7 @@ def generador():
 
     # mínimo 12
     # genera usando secrets
-    # valida que tenga mayús/minús/número/símbolo
+    # garantiza presencia de mayús, minús, número y símbolo
 ```
 
 ### 1) `secrets` (CSPRNG)
@@ -184,6 +184,16 @@ Salida:
 - `Tu contraseña: ...` *(ejemplo)*
 
 Ventaja: usa `secrets` y cumple reglas mínimas.
+
+---
+
+## Próximos pasos y mejoras
+
+Este proyecto es una base para seguir practicando Python. Algunas funcionalidades que me gustaría añadir más adelante son:
+
+* **Filtro de caracteres:** Permitir al usuario elegir si quiere excluir ciertos símbolos que a veces dan problemas en algunas webs (como las comillas o barras).
+* **Exportación a archivo:** Añadir una opción para guardar la contraseña generada de forma local.
+* **Analizador de fuerza:** Integrar un módulo que calcule el tiempo estimado de crackeo de la contraseña generada.
 
 ---
 
