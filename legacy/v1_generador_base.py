@@ -1,6 +1,8 @@
 import random
 
-
+# v1 - Versión Educativa (Insegura)
+# Este script fue el punto de partida para entender la lógica de bucles.
+# ADVERTENCIA: Usa 'random', por lo que no es apto para uso real.
 def generador():
   caracter = '@#$_&-+()/*:;!?~`£¢€¥^°%abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ1234567890'
   acumulador = ''
