@@ -1,4 +1,4 @@
-# Python Generador — Generador de contraseñas (aprendizaje + versión segura)
+# PassForge — Generador de contraseñas (aprendizaje + versión segura)
 
 Este repositorio empezó como un proyecto básico para practicar Python (Coursera): un generador de contraseñas por consola.  
 Con el tiempo, lo revisé desde el punto de vista de seguridad y encontré varios problemas en la **primera versión** (v1).  
