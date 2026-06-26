@@ -1,8 +1,18 @@
-# Python Generador — Generador de contraseñas (aprendizaje + versión segura)
+# PassForge — Generador de contraseñas (aprendizaje + versión segura)
+
+![Python](https://img.shields.io/badge/Python-3.6+-3776AB?logo=python&logoColor=white)
+![Licencia](https://img.shields.io/badge/Licencia-MIT-green)
+![Estado](https://img.shields.io/badge/Estado-En%20desarrollo-orange)
 
 Este repositorio empezó como un proyecto básico para practicar Python (Coursera): un generador de contraseñas por consola.  
 Con el tiempo, lo revisé desde el punto de vista de seguridad y encontré varios problemas en la **primera versión** (v1).  
 Luego implementé una **versión mejorada** (v2) usando `secrets` y una política mínima de complejidad.
+
+## Uso rápido
+
+1. Ejecuta la versión segura desde `src/v2_generador_seguro.py`.
+2. Ingresa una longitud de al menos 12 caracteres.
+3. Copia la contraseña generada y úsala donde la necesites.
 
 > **Importante:** La v1 sirve como ejemplo educativo de lo que *NO* debe usarse para generar contraseñas reales.  
 > Si necesitas contraseñas para uso real, usa la v2 (o una variante equivalente).
